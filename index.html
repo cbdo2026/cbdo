@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CBDO 2026</title>
+  <meta name="description" content="Brazilian Colloquium on Orbital Dynamics" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <div class="topbar">
+    <div class="container">
+      <span>XXII Brazilian Colloquium on Orbital Dynamics</span>
+    </div>
+  </div>
+  
+<div id="sidebar-placeholder"></div>
+
+  
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <section class="banner-card">
+            <h3>Banner do evento</h3>
+            <div class="banner-placeholder">
+              <div>
+                <strong>Espaço reservado para o banner oficial do CBDO 2026</strong><br />
+                Aqui poderá entrar a arte principal do evento, com identidade visual, logotipos e imagem de destaque.
+              </div>
+            </div>
+          </section>
+
+
+        </div>
+      </div>
+    </section>
+
+<section class="section">
+  <div class="container event-layout">
+    <div class="card highlight presentation-box">
+      <h3>About the Event</h3>
+      <p>
+        The Brazilian Colloquium on Orbital Dynamics (CBDO) is the most traditional South American event dedicated to Celestial Mechanics, Orbital Dynamics, Planetary Science, Fundamental Astronomy, Space Dynamics and Control, and Nonlinear Dynamical Systems.
+      </p>
+      <p>
+        With 44 years of history and held biennially, CBDO brings together researchers, students, and professionals from Brazil and abroad, fostering scientific exchange and collaboration. The programme features invited plenary talks by international speakers, as well as oral presentations, poster sessions, short courses, and round tables.
+      </p>
+      <p>
+        Recognised for its dynamic and collaborative environment, CBDO provides a unique forum for discussing recent advances and developing new ideas in the field.
+      </p>
+      <p>
+        The Organising Committee invites the community to participate and submit contributions aligned with the event’s topics.
+      </p>
+    </div>
+
+    <aside class="hero-card info-box">
+      <h3>General Information</h3>
+      <ul class="info-list">
+        <li><strong>Venue:</strong> Centro Universitário Geraldo Di Biase (UGB)</li>
+        <li><strong>Location:</strong> Volta Redonda, Rio de Janeiro, Brazil</li>
+        <li><strong>Event Dates:</strong> 7–11 December 2026</li>
+        <li><strong>Registration Opens:</strong> To be announced</li>
+        <li><strong>Registration Closes:</strong> To be announced</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+  </main>
+
+ <div id="footer-placeholder"></div>
+  
+<script>
+  async function loadFragment(id, file) {
+    const el = document.getElementById(id);
+    const res = await fetch(file);
+    el.innerHTML = await res.text();
+  }
+
+  loadFragment('sidebar-placeholder', 'sidebar.html');
+  loadFragment('footer-placeholder', 'footer.html');
+</script>
+  
+</body>
+</html>
