@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CBDO 2026</title>
+  <meta name="description" content="Brazilian Colloquium on Orbital Dynamics" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <div class="topbar">
+    <div class="container">
+      <span>XXII Brazilian Colloquium on Orbital Dynamics</span>
+    </div>
+  </div>
+  
+<div id="sidebar-placeholder"></div>
+
+  
+
+  <main>
+
+
+<section class="section">
+  <div class="container event-layout">
+    <div class="card highlight presentation-box">
+      <h3>This page is under construction.</h3>
+    </div>
+  </div>
+</section>
+
+
+    
+  </main>
+
+ <div id="footer-placeholder"></div>
+  
+<script>
+  async function loadFragment(id, file) {
+    const el = document.getElementById(id);
+    const res = await fetch(file);
+    el.innerHTML = await res.text();
+  }
+
+  loadFragment('sidebar-placeholder', 'sidebar.html');
+  loadFragment('footer-placeholder', 'footer.html');
+</script>
+  
+</body>
+</html>
