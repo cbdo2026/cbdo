@@ -611,3 +611,17 @@ main {
 .award-image img {
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
 }
+
+.form-wrapper {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form-wrapper iframe {
+  width: 100%;
+  border: 0;
+  display: block;
+}
