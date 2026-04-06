@@ -626,8 +626,3 @@ main {
   border: 0;
   display: block;
 }
-
-.full-width-card {
-  padding: 0;
-  overflow: hidden;
-}
