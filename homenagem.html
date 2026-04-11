@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CBDO 2026 – Brazilian Colloquium on Orbital Dynamics</title>
+  <meta name="description" content="CBDO 2026 – Brazilian Colloquium on Orbital Dynamics. International conference on celestial mechanics, planetary science, and orbital dynamics.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <div class="topbar">
+    <div class="container">
+      <span>XXII Brazilian Colloquium on Orbital Dynamics</span>
+    </div>
+  </div>
+  
+<div id="sidebar-placeholder"></div>
+
+  
+
+  <main>
+
+
+<section class="section">
+  <div class="container tribute-block">
+
+    <h1 class="tribute-title">A tribute to Professor Sylvio Ferraz-Mello</h1>
+
+    <img src="sylvio.jpg" alt="Professor Sylvio Ferraz-Mello" class="tribute-image">
+
+    <p>The XXIII Brazilian Colloquium of Orbital Dynamics is dedicated to Professor Sylvio Ferraz-Mello, who turns 90 this year.</p>
+
+    <p>Few people have shaped the field of celestial mechanics as deeply and as durably as he has. After graduating in Physics from the Universidade de São Paulo, Sylvio earned his Doctorate in Mathematical Sciences from the Académie de Paris - Sorbonne. He spent most of his career at the Institute of Astronomy, Geophisycs and Atmospheric Sciences of the University of São Paulo, where he is now Professor Emeritus. He is also a Full Member of the Brazilian Academy of Sciences and the Latin American Academy of Sciences, and a Corresponding Member of the Royal Academy of Sciences of Zaragoza.</p>
+
+    <p>His research touched — and often transformed — several areas of dynamical astronomy: orbital resonances, tidal evolution, chaos, asteroid dynamics, and exoplanetary systems. In particular, his Creep Tide theory offered a fresh rheophysical perspective on tidal dissipation and has become a standard reference in studies of the rotational and orbital evolution of planetary bodies.</p>
+
+    <p>He led the journal Celestial Mechanics and Dynamical Astronomy as Editor-in-Chief, and served as President of the IAU Commission 7 for Celestial Mechanics.</p>
+
+    <p>Among other honors, he received the Grã-Cruz da Ordem Nacional do Mérito Científico, the Docteur Honoris Causa from the Observatoire de Paris, and the Brouwer Award of the AAS Division on Dynamical Astronomy. The asteroid 5201 bears his name.</p>
+
+    <p>Yet equally important, he invested heavily in building the dynamical astronomy community in South America. Many of us in this field are, directly or indirectly, his scientific descendants.</p>
+
+    <p>Sylvio was one of the founders of the CBDO, early in 1982. We dedicate this edition of the Colloquium to him with admiration and gratitude.</p>
+
+  </div>
+</section>
+
+    <section class="section">
+</section>
+    
+  </main>
+
+ <div id="footer-placeholder"></div>
+  
+<script>
+  async function loadFragment(id, file) {
+    const el = document.getElementById(id);
+    const res = await fetch(file);
+    el.innerHTML = await res.text();
+  }
+
+  loadFragment('sidebar-placeholder', 'sidebar.html');
+  loadFragment('footer-placeholder', 'footer.html');
+</script>
+  
+</body>
+</html>

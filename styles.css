@@ -626,3 +626,49 @@ main {
   border: 0;
   display: block;
 }
+
+.tribute-block {
+  background: linear-gradient(180deg, var(--surface), var(--surface-2));
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 8px);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.tribute-title {
+  margin: 0 0 1.5rem 0;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.1;
+  color: var(--primary);
+}
+
+.tribute-image {
+  float: left;
+  width: 260px;
+  max-width: 40%;
+  margin: 0 1.5rem 1rem 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+.tribute-block p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--muted);
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .tribute-image {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .tribute-title {
+    text-align: center;
+  }
+}
